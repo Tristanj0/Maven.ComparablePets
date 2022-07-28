@@ -1,4 +1,4 @@
-package io.zipcoder;
+package io.zipcoder.polymorphism;
 
 import java.util.ArrayList;
 import java.util.Collections;

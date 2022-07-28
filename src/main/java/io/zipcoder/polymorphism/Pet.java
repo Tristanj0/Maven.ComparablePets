@@ -1,4 +1,4 @@
-package io.zipcoder;
+package io.zipcoder.polymorphism;
 
 public class Pet implements Comparable<Pet> {
 

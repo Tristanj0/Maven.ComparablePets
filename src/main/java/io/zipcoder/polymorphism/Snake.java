@@ -1,18 +1,19 @@
 package io.zipcoder.polymorphism;
 
-public class Cat extends Pet implements Comparable<Pet> {
-    public Cat(String name) {
+
+public class Snake extends Pet implements Comparable<Pet> {
+    public Snake(String name) {
         super(name);
     }
 
     @Override
     public String toString() {
-        return "Cat{" +
+        return "Snake{" +
                 "name='" + name + '\'' +
                 '}';
     }
 
     public void speak() {
-        System.out.println("Meow!");
+        System.out.println("Hisss!");
     }
 }

@@ -43,7 +43,7 @@ public class MainApplication {
             }
         }
         System.out.println(pets.size() + " Pet(s): " + pets);
-        for (Pet pet : pet) {
+        for (Pet pet : pets) {
             System.out.println(pet.name + " says: ");
             pet.speak();
         }
